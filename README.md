@@ -1,2 +1,4 @@
 # Portfolio02
-Week 2 Homework
+
+Project Title:
+Personal Portfolio Homework
