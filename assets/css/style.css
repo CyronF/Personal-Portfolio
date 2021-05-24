@@ -1,10 +1,9 @@
 * {
     box-sizing: border-box;
     flex-direction:column;
-                     
+                
   }
-  
-  
+
   :root {
     --primary: rgba(68, 88, 119, 1);
     --secondary: rgba(146, 204, 206, 1);
@@ -29,6 +28,8 @@
   h5,
   h6 {
     margin: 0;
+    padding: 5px;
+    border-radius: 8px
   }
   
   p {
@@ -49,9 +50,9 @@
   header h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
-    padding: 5px 1% 5px 6%;
-    margin: 0;
+    margin: 8px;
     font-size: 4vw;
+    justify-content: center;
     line-height: 1;
   }
   
@@ -90,9 +91,9 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/tech-background.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
-    background-position: center;
+    background-position:inherit;
     background-blend-mode: soft-light;
     min-height: 30vh;
     color: var(--light);
@@ -115,6 +116,7 @@
     font-size: 2.3rem;
     line-height: 1.2;
     display: inline;
+    
   }
   
   .page-wrapper {
@@ -155,6 +157,7 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    
   }
   
   .flex-item {
@@ -182,16 +185,23 @@
   }
   
   .flex-item:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.048);
+    color: #a885f8b4;
+    text-shadow:0px 0px 30px #faf6d736;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
   }
   
   .flex-item div {
     background-color: var(--secondary);
     padding: 8px 10px;
   }
-  
+
   .flex-item h3 {
     font-size: 1.6rem;
+    
   }
   
   .contact address {
@@ -226,24 +236,25 @@
   
   
   /* portfolio project images */
-  .run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
+  .code-quiz {
+    background-image: url("../images/code-quiz.jpg");
+    
   }
   
-  .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
+  .work-day-scheduler {
+    background-image: url("../images/work-day-scheduler.jpg");
   }
   
-  .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
+  .travel {
+    background-image: url("../images/travel-knowtes.jpg");
   }
   
-  .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
+  .password-generator {
+    background-image: url("../images/password-generator.jpg");
   }
   
-  .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+  .weather-dashboard {
+    background-image: url("../images/weather-dashboard.jpg");
   }
   
   /* end portfolio project images */
