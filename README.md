@@ -1,4 +1,1 @@
-# Portfolio02
-
-Project Title:
-UPDATED Personal Portfolio Homework
+# UPDATED PERSONAL PORTFOLIO
